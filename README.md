@@ -99,16 +99,6 @@ Observations:
 -   Domain-specific fine-tuning of title encoder
 -   Incorporating user-side features
 
-## Repository Structure
-
-main.py \# Training and inference pipeline model.py \# BERT4Rec
-implementation data_preprocessing.py \# Sequence construction and
-masking fusion.py \# RRF and hybrid ranking logic
-
-## Run
-
-pip install -r requirements.txt python main.py
-
 ## Technologies
 
 Python PyTorch Transformers NumPy Pandas
